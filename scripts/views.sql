@@ -2,7 +2,7 @@ set search_path to current_analysis;
 
 create or replace view v_user as
 (
-    select email, '*****' as password
+    select substr(email, 0, length(email) / 2)||'*****' as email, '*****' as password
     from "user"
 );
 
@@ -23,7 +23,7 @@ from v_tax;
 
 create or replace view v_group_x_user as
 (
-    select email,
+    select substr(email, 0, length(email) / 2)||'*****' as email,
            dense_rank() over (order by g.group_id) as group_number
     from "user"
         join user_x_group uxg
@@ -36,7 +36,7 @@ select * from v_group_x_user;
 
 create or replace view v_user_x_tax as
 (
-    select email,
+    select substr(email, 0, length(email) / 2)||'*****' as email,
             price_day_sell_value as day_sell_price,
             price_day_buy_value as day_buy_price,
             price_night_sell_value as night_sell_price,
