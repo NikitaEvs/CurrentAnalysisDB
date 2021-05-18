@@ -15,21 +15,21 @@
 * Тариф
 
 ## Концептуальная модель
-![tex/include/concept.pdf](Концептуальная модель)
+![Концептуальная модель](doc/include/concept.pdf)
 
 ## Логическая модель
-![tex/include/logic.pdf](Логическая модель)
+![Логическая модель](doc/include/logic.pdf)
 
 ## Физическая модель
 
-Концептуальная, логическая и физическая модели доступны также в [tex/build/main.pdf](документе).
+Концептуальная, логическая и физическая модели доступны также в [документе](doc/build/main.pdf).
 
 ## Скрипты
-* [scripts/create.sql](DDL скрипты создания пустой БД)
-* [scripts/insert.sql](Скрипты заполнения данными)
-* [scripts/requests.sql](Примеры смысловых запросов)
-* [scripts/crud.sql](CRUD запросы)
-* [scripts/views.sql](Представления)
-* [scripts/complex_views.sql](Сложные представления)
-* [scripts/additions.sql](Триггеры и хранимые процедуры)
+* [DDL скрипты создания пустой БД](scripts/create.sql)
+* [Скрипты заполнения данными](scripts/insert.sql)
+* [Примеры смысловых запросов](scripts/requests.sql)
+* [CRUD запросы](scripts/crud.sql)
+* [Представления](scripts/views.sql)
+* [Сложные представления](scripts/complex_views.sql)
+* [Триггеры и хранимые процедуры](scripts/additions.sql)
 
