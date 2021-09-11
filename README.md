@@ -1,35 +1,28 @@
-# Семестровый проект по предмету "Базы данных"
+# Database coursework project 
 ---
 
-## Предметная область
-В проекте реализована база данных системы анализа потребления в электрической системе.
+## Subject area
+In this project implemented database for the analysis system for the electicity consumption.
 
-Основные сущности:
-* Измерение производства
-* Датчик
-* Сетевая компания
-* Группа пользователей
-* Потребитель электричества
-* Солнечная палень
-* Пользователь
-* Тариф
+Main parts:
+* Production measurement
+* Sensor
+* Electricity company
+* Group of users
+* Electricity consumer
+* Solar panel
+* User
+* Tax
 
-## Концептуальная модель
-![Концептуальная модель](doc/include/concept.png)
+## Logical model 
+![Logical model](doc/include/logic.png)
 
-## Логическая модель
-![Логическая модель](doc/include/logic.png)
-
-## Физическая модель
-
-Концептуальная, логическая и физическая модели доступны также в [документе](doc/build/main.pdf).
-
-## Скрипты
-* [DDL скрипты создания пустой БД](scripts/create.sql)
-* [Скрипты заполнения данными](scripts/insert.sql)
-* [Примеры смысловых запросов](scripts/requests.sql)
-* [CRUD запросы](scripts/crud.sql)
-* [Представления](scripts/views.sql)
-* [Сложные представления](scripts/complex_views.sql)
-* [Триггеры и хранимые процедуры](scripts/additions.sql)
+## Scripts 
+* [DDL scripts for creation of new DB](scripts/create.sql)
+* [Scripts for data populating](scripts/insert.sql)
+* [Main SQL requests](scripts/requests.sql)
+* [CRUD requests](scripts/crud.sql)
+* [Views](scripts/views.sql)
+* [Complex views](scripts/complex_views.sql)
+* [Triggers and functions](scripts/additions.sql)
 
